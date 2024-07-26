@@ -72,7 +72,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Aman Rai - amanrai1445gmail.com
+
 Project Link: [https://github.com//responsive-website](https://github.com/AmanRai145/responsive-website)
 
 ---
