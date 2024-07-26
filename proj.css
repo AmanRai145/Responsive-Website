@@ -1,0 +1,302 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "gilroy";
+    box-sizing: border-box;
+    
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+
+}
+.top{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(https://images.pexels.com/photos/4406329/pexels-photo-4406329.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    
+    background-size: cover;
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+}
+.overlay{
+    width: 100%;
+    min-height: inherit;
+    background-color: rgb(0 0 0 / 66%);
+    position: relative;
+    
+}   
+.text{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 10vw;
+    
+    position: absolute;
+    bottom: 20%;
+    
+    
+    color: white;
+}
+.noise{
+    font-size: 6vw;
+}
+.textright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    font-size: 20px;
+}
+.textright p{
+    font-size: 1.1vw;
+    width: 40%;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1vw;
+    gap: 5px;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+    background-color: blue;
+}
+.bone{
+    width: 25%;
+    min-height: inherit;
+    background-color: rgb(255, 255, 255);
+}
+.b1top{
+    margin-top: 20px;
+}
+.b1top .p1{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.b1top .p2{
+    font-size: 16px;
+
+}
+.btwo{
+    background-image: url(https://images.pexels.com/photos/65677/gerlitz-glacier-mountains-in-the-morning-paragliding-65677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    min-height: inherit;
+    background-color: black;
+}
+.bthree{
+    width: 25%;
+    min-height: inherit;
+    background-color: chartreuse;
+}
+
+
+.b3top{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    padding: 61px 60px;
+    width: 100%;
+    min-height: 20vh;
+    background-color: rgb(253, 7, 7);
+    color: white;
+    font-size: 1.5vw;
+    
+}
+.b3bottom{
+    background-image: url(https://img.freepik.com/premium-photo/red-flowers-wallpaper-iphone-is-best-high-definition-iphone-wallpaper-you-can-make-this-wallpaper-your-iphone-x-backgrounds-mobile-screensaver-ipad-lock-screen-iphone-wallpaper_873925-31930.jpg?w=360);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 20vh;
+}
+.bfour{
+    width: 25%;
+    min-height: inherit;
+    background-color: rgb(62, 51, 47);
+    padding: 20px 10px;
+}
+
+.latest{
+    width: 100%;
+    height: 10%;
+    font-weight: 500;
+    color: aliceblue;
+    margin-left: 13px;
+    margin-bottom: 9px;
+    font-size: 30px;
+}
+
+.div1{
+    display: flex;
+    align-items: center;
+    
+    gap: 13px;
+    height: 30%;
+    width: 100%;
+    padding: 5px;
+}
+.div1 p{
+    font-size: 1vh 1vw;
+}
+.box1{
+    
+    width: 6vw;
+    height: 8vh;
+    background-color: red;
+    border-radius: 100%;
+    background-image: url(https://images.pexels.com/photos/573302/pexels-photo-573302.jpeg?auto=compress&cs=tinysrgb&w=400);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.div2{
+    display: flex;
+    align-items: center;
+    gap: 13px; 
+    height: 30%;
+    width: 100%;
+    padding: 5px;
+}
+.div2 p{
+    font-size: 1vh 1vw;
+}
+.box2{
+    
+    width: 6vw;
+    height: 8vh;
+    border-radius: 100%;
+    background-image: url(https://images.pexels.com/photos/965324/pexels-photo-965324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.div3{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    height: 30%;
+    width: 100%;
+    padding: 5px;
+}
+.div3 p{
+    font-size: 1vh 1vw;
+}
+.box3{
+    
+    width: 6vw;
+    height: 8vh;
+    border-radius: 100%;
+    background-image: url(https://img.freepik.com/premium-photo/flower-wallpaper-that-says-i-love-flowers_925897-17107.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.b1top{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    padding: 12px 60px;
+    width: 100%;
+    height: 40%;
+    
+    color: black;
+    font-size: 1.5vw;
+    
+}
+
+@media(max-width: 600px){
+    .overlay .text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .overlay .text .textright{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .overlay .text .textright p{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .overlay .text .noise{
+        margin-bottom: 20px;
+        font-size: 7vh;
+    }
+    .overlay .text .textright .icon{
+        margin-top: 20px;
+        font-size: 3vw;
+    
+    }
+    .bottom{
+        flex-direction: column;
+
+    }
+    .bone{
+       width: 100%;
+       padding: 10px;
+    }
+    .btwo{
+       width: 100%;
+
+    }
+    .bthree{
+        width: 100%;
+       
+
+    }
+    .bfour{
+        width: 100%;
+        flex-direction: column;
+        padding: 20px;
+
+    }
+    .bfour .div1 .box1{
+        width: 19vw;
+        height: 9vh;
+    }
+    .bfour .div2 .box2{
+        width: 19vw;
+        height: 9vh;
+    }
+    .bfour .div3 .box3{
+        width: 19vw;
+        height: 9vh;
+
+    }
+    .bone .b1top{
+        justify-content: space-between;
+        font-size: 25px;
+        gap: 40px;
+    }
+    .bone .b1top .p2{
+        font-size: 10px;
+    }
+    .bthree .b3top{
+        font-size: 20px;
+    }
+    
+}
+
