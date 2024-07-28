@@ -19,7 +19,7 @@ html,body{
 }
 .top{
     width: 100%;
-    min-height: 60vh;
+    min-height: 50vh;
     background-image: url(https://images.pexels.com/photos/4406329/pexels-photo-4406329.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     
     background-size: cover;
@@ -71,7 +71,7 @@ html,body{
 .bottom{
     display: flex;
     width: 100%;
-    min-height: 40vh;
+    min-height: 50vh;
     background-color: blue;
 }
 .bone{
