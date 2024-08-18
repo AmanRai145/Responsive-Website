@@ -71,7 +71,7 @@ html,body{
 .bottom{
     display: flex;
     width: 100%;
-    min-height: 50vh;
+    min-height: 40vh;
     background-color: blue;
 }
 .bone{
